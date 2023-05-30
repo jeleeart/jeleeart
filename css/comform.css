@@ -92,7 +92,9 @@ textarea {
   resize: none;
 
 }
-
+.files {
+  margin-top:10px;
+}
 .submit {
   background-color: #ff5289;
   border-radius: 12px;
