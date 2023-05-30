@@ -19,9 +19,9 @@ body {
   background-color: #ffc2c2;
   border-radius: 20px;
   box-sizing: border-box;
-  height: 500px;
+  height: 700px;
   padding: 20px;
-  width: 320px;
+  width: 400px;
   margin-top: 8px;
 }
 .title {
@@ -33,7 +33,15 @@ body {
   text-align:center;
 
 }
-
+.question {
+  color: #ff5289;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align:left;
+  padding:5px;
+}
 .subtitle {
   color: #fc788c;
   font-family: sans-serif;
@@ -43,6 +51,10 @@ body {
   text-align:center;
 
 }
+input[type='radio'] {
+        accent-color: palevioletred;
+    }
+
  input::placeholder, textarea::placeholder {
         color: #fc79a4;
         opacity: 1;
