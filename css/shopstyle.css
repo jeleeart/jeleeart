@@ -3,12 +3,16 @@ body {
   font-family: verdana;
   color: #000000;
 }
+.button-56 {
+  cursor: url(images/cursor.png), url(images/cursor.cur), auto;
+}
 
 .logo {
   background-color: #ffbfbf;
   padding: 15px;
   text-align: center;
 }
+
 .foot {
   background-color:#ffbfbf;
   text-align:center;
